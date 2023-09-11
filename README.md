@@ -21,7 +21,7 @@ using technologies such as:
 
 ## Link
 
-https://bartek-kasprzyk.github.io/currency-converter/
+https://bartek-kasprzyk.github.io/to-do-list/
 
 ## Author
 
