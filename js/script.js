@@ -71,8 +71,8 @@
         }
 
         addNewTask(newTaskContent);
-		newTaskInput.value = "";
-		newTaskInput.focus();
+        newTaskInput.value = "";
+        newTaskInput.focus();
     };
 
     const init = () => {
