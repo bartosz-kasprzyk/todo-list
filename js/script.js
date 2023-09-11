@@ -1,14 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "nagrać",
-            done: false,
-        },
-        {
-            content: "zjeść",
-            done: true,
-        },
-    ];
+    const tasks = [];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -51,12 +42,14 @@
 
         for (const task of tasks) {
             htmlString += `
-        <li
-        ${task.done ? "class=task--done" : ""}
-        >
-        <button class="js-remove">usuń</button>
-            ${task.content}
-        <button class="js-done">zrobione?</button>
+        <li class="tasks__item ${task.done ? "tasks__item--done" : ""}">
+            <button class="js-done tasks__button tasks__button--done">
+                <i class="${task.done ? "gg-check" : "tasks__button--disabled"}"></i>
+            </button>
+                <span class="tasks__content">${task.content}</span>
+            <button class="js-remove tasks__button tasks__button--remove">
+                <i class="gg-trash"></i>
+            </button>
         </li>
         `;
         }
@@ -69,13 +62,16 @@
     const onFormSubmit = (event) => {
         event.preventDefault();
 
-        const newTaskContent = document.querySelector(".js-newTask").value.trim();
+        const newTaskInput = document.querySelector(".js-newTask");
+        const newTaskContent = newTaskInput.value.trim();
 
         if (newTaskContent === "") {
             return;
         }
 
         addNewTask(newTaskContent);
+		newTaskInput.value = "";
+		newTaskInput.focus();
     };
 
     const init = () => {
@@ -88,3 +84,9 @@
 
     init();
 }
+
+
+
+
+
+

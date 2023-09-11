@@ -1,0 +1,11 @@
+.section {
+margin-bottom: -10px;
+}
+
+.section__header {
+    min-height: 40px;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    margin-bottom: 2px;
+}
