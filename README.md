@@ -18,3 +18,13 @@ using technologies such as:
 * Flexbox
 * Grid
 * ES6+ features
+
+## Link
+
+https://bartek-kasprzyk.github.io/currency-converter/
+
+## Author
+
+This project was created by Bartosz Kasprzyk. Please feel free to contact me if you need any further information.
+
+Thank you for visiting my website!
