@@ -2,23 +2,44 @@
     background-color: #fff;
     display: grid;
     grid-template-columns: 1fr 110px;
+    grid-auto-flow: column;
+    grid-gap: 10px;
     padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 40px;
+    }
 }
 
 .form__newTask {
     flex-grow: 1;
-	margin-right: 20px;
-	padding: 10px;
-	border: 2px solid #ececec;
+    margin-right: 20px;
+    padding: 10px;
+    border: 2px solid #ececec;
+}
+
+@media (max-width: 767px) {
+    .form__newTask {
+        margin-right: 0;
+    }
 }
 
 .form__newTask::placeholder {
     color: #bdbdbd;
 }
-  
+
 .form__button {
     font-family: 'Lato', sans-serif;
-	background-color: teal;
-	color: #eee;
-	border: none;
+    background-color: teal;
+    color: #eee;
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .form__button {
+        flex-grow: 1;
+    }
 }

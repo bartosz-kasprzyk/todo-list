@@ -66,6 +66,7 @@
         const newTaskContent = newTaskInput.value.trim();
 
         if (newTaskContent === "") {
+            newTaskInput.focus();
             return;
         }
 

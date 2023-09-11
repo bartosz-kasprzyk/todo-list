@@ -16,4 +16,5 @@ html {
     max-width: 1000px;
     margin: auto;
     background-color: #ececec;
+    word-break: break-word;
 }
