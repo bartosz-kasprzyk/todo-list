@@ -14,13 +14,6 @@
     align-items: center;
 }
 
-@media (max-width: 767px) {
-    .tasks__item {
-        margin: 0 0 0 -40px;
-        padding: 20px;
-    }
-}
-
 .tasks__item--done {
     text-decoration: line-through;
 }
@@ -49,7 +42,7 @@
 }
 
 .tasks__button--done {
-    background-color: #015e01;
+    background-color: #048004;
 }
 
 .tasks__button--disabled {
@@ -57,5 +50,5 @@
 }
 
 .tasks__button--remove {
-    background-color: #d30202;
+    background-color: #ec1f30;
 }

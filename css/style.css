@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    padding: 20px;
     font-size: 15px;
     line-height: 1.5;
 }
