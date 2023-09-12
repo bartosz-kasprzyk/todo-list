@@ -4,7 +4,7 @@ This application is a simple to-do list maker. It allows you to list all of the 
 
 ![preview](/images/to-do-list.gif)
 
-It's also mobile-friendly!
+Want to use it on your phone? It's also mobile-friendly!
 
 ![preview on mobile](/images/to-do-list-mobile.gif)
 
@@ -19,7 +19,7 @@ using technologies such as:
 * Grid
 * ES6+ features
 
-## Link
+## Demo
 
 https://bartek-kasprzyk.github.io/to-do-list/
 
