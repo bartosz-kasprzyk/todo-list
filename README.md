@@ -19,7 +19,7 @@ using technologies such as:
 * Grid
 * ES6+ features
 
-## Link
+## Demo
 
 https://bartek-kasprzyk.github.io/to-do-list/
 
