@@ -2,7 +2,7 @@
     min-height: 50px;
     background-color: #fff;
     margin-top: 3px;
-    padding: 31px 20px 20px 20px;
+    padding: 20px;
 }
 
 .tasks__item {
@@ -45,10 +45,18 @@
     background-color: #048004;
 }
 
+.tasks__button--done:hover {
+    background-color: #078a07;
+}
+
 .tasks__button--disabled {
     visibility: hidden;
 }
 
 .tasks__button--remove {
     background-color: #ec1f30;
+}
+
+.tasks__button--remove:hover {
+    background-color: #f72e3e;
 }
