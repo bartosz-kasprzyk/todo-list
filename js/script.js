@@ -42,15 +42,15 @@
 
         for (const task of tasks) {
             htmlString += `
-        <li class="tasks__item ${task.done ? "tasks__item--done" : ""}">
-            <button class="js-done tasks__button tasks__button--done">
-                <i class="${task.done ? "gg-check" : "tasks__button--disabled"}"></i>
-            </button>
-                <span class="tasks__content">${task.content}</span>
-            <button class="js-remove tasks__button tasks__button--remove">
-                <i class="gg-trash"></i>
-            </button>
-        </li>
+                <li class="tasks__item ${task.done ? "tasks__item--done" : ""}">
+                    <button class="js-done tasks__button tasks__button--done">
+                        <i class="${task.done ? "gg-check" : "tasks__button--disabled"}"></i>
+                    </button>
+                    <span class="tasks__content">${task.content}</span>
+                    <button class="js-remove tasks__button tasks__button--remove">
+                        <i class="gg-trash"></i>
+                    </button>
+                </li>
         `;
         }
 

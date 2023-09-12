@@ -1,10 +1,11 @@
 .form {
     background-color: #fff;
     display: grid;
-    grid-template-columns: 1fr 110px;
+    grid-template-columns: 1fr 115px;
     grid-auto-flow: column;
     grid-gap: 10px;
     padding: 20px;
+    margin-top: 3px;
 }
 
 @media (max-width: 767px) {
@@ -16,7 +17,7 @@
 
 .form__newTask {
     flex-grow: 1;
-    margin-right: 20px;
+    margin-right: 10px;
     padding: 10px;
     border: 2px solid #ececec;
 }

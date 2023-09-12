@@ -1,5 +1,5 @@
 .section {
-    margin-bottom: -8px;
+    margin-bottom: 10px;
     box-shadow: 0px 0px 5px 2px #E2E2E2;
 }
 
@@ -7,6 +7,6 @@
     min-height: 40px;
     background-color: #fff;
     display: flex;
-    padding: 10px 20px;
-    margin-bottom: 2px;
+    padding: 20px;
+    margin: 0;
 }
