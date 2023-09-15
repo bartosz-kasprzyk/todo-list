@@ -34,9 +34,19 @@
 
 .form__button {
     font-family: 'Lato', sans-serif;
-    background-color: teal;
+    background-color: #008080;
     color: #eee;
     border: none;
+}
+
+.form__button:hover {
+    background-color: #038b8b;
+    transform: scale(1.1);
+    transition: background-color 1s, transform 1s;
+}
+
+.form__button:active {
+    background-color: #06a1a1;
 }
 
 @media (max-width: 767px) {

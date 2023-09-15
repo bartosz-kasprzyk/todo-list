@@ -38,7 +38,6 @@
 .tasks__button:active {
     outline: auto;
     outline-color: #000;
-
 }
 
 .tasks__button--done {
@@ -46,7 +45,12 @@
 }
 
 .tasks__button--done:hover {
-    background-color: #078a07;
+    background-color: #0b9b0b;
+    transition: background-color 1s;
+}
+
+.tasks__button--done:active {
+    background-color: #0da50d;
 }
 
 .tasks__button--disabled {
@@ -58,5 +62,14 @@
 }
 
 .tasks__button--remove:hover {
-    background-color: #f72e3e;
+    background-color: #f84150;
+    transition: background-color 1s;
+}
+
+.tasks__button--remove:active {
+    background-color: #ff4f5d;
+}
+
+.tasks__hidden {
+    display: none;
 }
