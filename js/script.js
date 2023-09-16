@@ -80,7 +80,7 @@
             `;
     };
 
-    const bindButtonsEvents = () => {
+    const bindSectionButtonsEvents = () => {
         const toggleShowHideButton = document.querySelector(".js-showOrHideDone");
 
         if (toggleShowHideButton) {
@@ -100,7 +100,7 @@
         renderButtons();
 
         bindEvents();
-        bindButtonsEvents();
+        bindSectionButtonsEvents();
     };
 
     const onFormSubmit = (event) => {
