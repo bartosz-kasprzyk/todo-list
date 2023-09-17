@@ -52,7 +52,7 @@
 }
 
 .section__button:active {
-    color: rgb(10, 194, 194);
+    color: #0ac2c2;
 }
 
 .section__button--disabled {
