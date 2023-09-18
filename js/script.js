@@ -75,8 +75,12 @@
             return;
         }
         buttonsElement.innerHTML = `
-            <button class="section__button js-showOrHideDone">${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button>
-            <button class="section__button ${tasks.every(({ done }) => done) ? "section__button--disabled" : ""} js-allTasksDone">Ukończ wszystkie</button>
+            <button class="section__button js-showOrHideDone">
+                ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+            </button>
+            <button class="section__button ${tasks.every(({ done }) => done) ? "section__button--disabled" : ""} js-allTasksDone">
+                Ukończ wszystkie
+            </button>
             `;
     };
 

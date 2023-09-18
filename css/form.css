@@ -37,12 +37,13 @@
     background-color: #008080;
     color: #eee;
     border: none;
+    transition: background-color 1s, transform 1s;
+    cursor: pointer;
 }
 
 .form__button:hover {
     background-color: #038b8b;
     transform: scale(1.1);
-    transition: background-color 1s, transform 1s;
 }
 
 .form__button:active {
