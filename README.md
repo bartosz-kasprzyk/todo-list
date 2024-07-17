@@ -27,12 +27,6 @@ using technologies such as:
 
 ## Author
 
-<p align="center">
-  <a href="https://bartosz-kasprzyk.github.io/homepage/">
-    <img width="300px" src="/drawingsignature.png" />
-  </a>
-</p>
-
 This project was created by [Bartosz Kasprzyk](https://github.com/bartosz-kasprzyk). Please feel free to contact me if you need any further information.
 
 Thank you for visiting my website!
